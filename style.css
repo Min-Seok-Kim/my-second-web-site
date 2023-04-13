@@ -1,0 +1,64 @@
+body,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.Toolbar-1 {
+  display: flex;
+}
+
+
+
+.item {
+  background-color: white;
+  flex-grow: 1;
+  transition: 0.5s;
+}
+
+.item:hover {
+  background-color: black;
+}
+
+.tc {
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.tc:hover {
+  color: white;
+}
+
+#Min2 {
+ max-width: 100%;
+ width: 900px;
+}
+
+#Min {
+  text-align: center;
+}
+
+.FooterMenu {
+  display: flex;
+}
+
+.Footeritem {
+  flex-grow: 1;
+}
+
+.ts {
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+  font-size: 12px;
+  color:black;
+  font-weight: bold;
+}
